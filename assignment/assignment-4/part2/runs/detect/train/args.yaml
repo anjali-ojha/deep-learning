@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: butterfly-mix/datasets/data.yaml
-epochs: 3
+data: /Users/hims/sjsu/sem-3/git/deep-learning/assignment/assignment-4/part2/butterfly-mix/datasets/data.yaml
+epochs: 10
 time: null
 patience: 100
 batch: 16
