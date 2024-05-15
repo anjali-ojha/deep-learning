@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/Tune-A-Video-main/.idea/Tune-A-Video-main.iml" filepath="$USER_HOME$/Downloads/Tune-A-Video-main/.idea/Tune-A-Video-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/deep-learning.iml" filepath="$PROJECT_DIR$/.idea/deep-learning.iml" />
     </modules>
   </component>
