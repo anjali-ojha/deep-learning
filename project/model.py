@@ -7,6 +7,7 @@ from torchvision.ops.misc import MLP
 
 device = 'cuda' if torch.cuda.is_available() else 'mps'
 
+
 class Model(nn.Module):
     def __init__(self, num_classes, num_features, model_type='swin') -> None:
         super().__init__()
@@ -29,7 +30,7 @@ class Model(nn.Module):
                         norm_layer=nn.LayerNorm,
                         inplace=None,
                         dropout=0.2)
-        
+
         in_features = hidden_features[-1] + img_features
         hidden_features = [2 * in_features, 4 * in_features]
         self.mlp2 = MLP(in_features,
